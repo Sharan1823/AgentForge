@@ -1,0 +1,34 @@
+{
+  "agentName": "New Agent",
+  "generatedAt": "2026-03-20T05:28:41.870Z",
+  "totalPosts": 3,
+  "posts": [
+    {
+      "platform": "3.WRITE A PROGRAM TO DECLARE VARIABLES OF DIFFERENT DATATYPES (INTEGER",
+      "topic": "float",
+      "originalContent": "character",
+      "optimizedCaption": "Here are three optimized captions for declaring variables of different datatypes (integer):\n\n**Instagram**\n\"Get coding! Declare variables like a pro with integers, floats, characters, and doubles #CodeLife #ProgrammingTips #VariableDeclaration\"\n\n**LinkedIn**\n\"Mastering Variable Declaration: A Crucial Skill in Programming Learn how to declare variables with precision using integer, float, character, and double datatypes.\"\n\n**Twitter**\n\"Declare Variables Like a Pro! Integers, floats, chars & doubles - you got this! #CodeWithConfidence #VariableDeclaration #ProgrammingBasics\"",
+      "scheduledTime": "2026-03-21T03:30:00.000Z",
+      "humanReadableTime": "21/3/2026, 9:00:00 am",
+      "status": "SCHEDULED"
+    },
+    {
+      "platform": "5.WRITE A PROGRAM THAT USES VARIABLES",
+      "topic": "datatypes",
+      "originalContent": "operators",
+      "optimizedCaption": "Here are the optimized captions for each platform:\n\n**Instagram:** \"Unlock the power of variables! Did you know you can store your name, age, and height in separate variables? Let's explore how to use variables to make our coding life easier #datatypes #variables #programmingbasics\"\n\n**LinkedIn:** \"Effective Variable Management: A Key to Efficient Coding. Learn how to declare and utilize variables of different data types, and discover the benefits of using them in your programming workflow.\"\n\n**Twitter:** \"Variables 101! Store your name, age & height in separate vars & take your coding skills to the next level #programmingbasics #datatypes #variables\"\n\n**Facebook:** \"Hey friends! Have you ever wondered how variables work? Let's dive into the world of datatypes and explore how we can use variables to make our code more efficient and organized\"",
+      "scheduledTime": "2026-03-21T03:30:00.000Z",
+      "humanReadableTime": "21/3/2026, 9:00:00 am",
+      "status": "SCHEDULED"
+    },
+    {
+      "platform": "6.WRITE A PROGRAM TO PERFORM ADDITION",
+      "topic": "subtraction",
+      "originalContent": "multiplication",
+      "optimizedCaption": "Here are three optimized captions for each platform:\n\n**Instagram**\n\"Addition made easy! Here's a simple program to get you started #CodingForBeginners #ProgrammingLanguages #MathInTheCloud\"\n\n**LinkedIn**\n\"Efficient code is key: Learn how to optimize your addition operations with this straightforward program. Perfect for developers looking to streamline their workflows.\"\n\n**Twitter**\n\"Need a quick fix? This 5-line program performs addition like a pro! #CodeOptimization #ProgrammingTips #AdditionMadeEasy\"",
+      "scheduledTime": "2026-03-21T03:30:00.000Z",
+      "humanReadableTime": "21/3/2026, 9:00:00 am",
+      "status": "SCHEDULED"
+    }
+  ]
+}

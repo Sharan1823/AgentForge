@@ -1,0 +1,34 @@
+{
+  "agentName": "New Agent",
+  "generatedAt": "2026-03-20T05:28:12.552Z",
+  "totalPosts": 3,
+  "posts": [
+    {
+      "platform": "3.WRITE A PROGRAM TO DECLARE VARIABLES OF DIFFERENT DATATYPES (INTEGER",
+      "topic": "float",
+      "originalContent": "character",
+      "optimizedCaption": "Here are three different captions for the post:\n\n**Instagram:**\n\"Variables in action! Let's get started with declaring variables of different datatypes (integer, float, character, and double) and displaying their values! #programmingbasics #variabledeclaration #datatypes #codenewbies\"\n\n**LinkedIn:**\n\"Mastering data types is a crucial skill for any programmer. Learn how to declare variables of integer, float, character, and double datatypes in this essential programming concept.\"\n\n**Twitter:**\n\"Variables 101: Declare & display different datatypes (int, float, char, double) in just a few lines of code! #programmingbasics #datatypes #codenewbies\"\n\n**Facebook:**\n\"So you want to get started with programming? First things first - let's talk about variables! Learn how to declare variables of different datatypes (integer, float, character, and double) and display their values in this easy-to-follow guide.\"",
+      "scheduledTime": "2026-03-21T03:30:00.000Z",
+      "humanReadableTime": "21/3/2026, 9:00:00 am",
+      "status": "SCHEDULED"
+    },
+    {
+      "platform": "5.WRITE A PROGRAM THAT USES VARIABLES",
+      "topic": "datatypes",
+      "originalContent": "operators",
+      "optimizedCaption": "Here are the optimized captions for each platform:\n\n**Instagram**\n\"Get creative with code! Learn how to use variables in programming and unlock a world of possibilities #programming #coding #variables #datatypes #operators\"\n\n**LinkedIn**\n\"As a programmer, understanding variables, datatypes, and operators is essential. Here's an example program that demonstrates their usage and provides insight into efficient coding practices.\"\n\n**Twitter**\n\"Variables 101! Use them to write efficient code & simplify your programming workflow #programming #coding #variables\"\n\n**Facebook**\n\"So you want to learn about variables? Let me show you a simple program that uses them to calculate the area and perimeter of a rectangle. It's a great way to get started with coding and understand how variables work!\"",
+      "scheduledTime": "2026-03-21T03:30:00.000Z",
+      "humanReadableTime": "21/3/2026, 9:00:00 am",
+      "status": "SCHEDULED"
+    },
+    {
+      "platform": "6.WRITE A PROGRAM TO PERFORM ADDITION",
+      "topic": "subtraction",
+      "originalContent": "multiplication",
+      "optimizedCaption": "Here are three different captions for each platform:\n\n**Instagram**\n\"Add up to amazing! Let's break down the basics of programming with a simple yet essential operation - addition! What's your favorite math problem to solve? #programmingbasics #mathlove #additionmatters\"\n\n**LinkedIn**\n\"Mastering the Fundamentals: A Program to Perform Addition. In this post, we'll explore a basic yet crucial concept in programming: adding two numbers together. Discover how to write an optimized program for addition and take your coding skills to the next level.\"\n\n**Twitter**\n\"Adding up the fun! Learn how to write a simple program that performs addition with just a few lines of code! #programmingbasics #mathmatters\"\n\n**Facebook**\n\"Hey friends! Want to learn some programming basics? Let's start with something easy - adding two numbers together! I'll share a simple program that will get you started. Who else loves math problems?\"",
+      "scheduledTime": "2026-03-21T03:30:00.000Z",
+      "humanReadableTime": "21/3/2026, 9:00:00 am",
+      "status": "SCHEDULED"
+    }
+  ]
+}

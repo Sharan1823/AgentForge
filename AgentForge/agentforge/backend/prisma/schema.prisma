@@ -1,0 +1,164 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../generated/prisma-client"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Company {
+  id        String   @id @default(cuid())
+  name      String   @unique
+  users     User[]
+  agents    Agent[]
+  createdAt DateTime @default(now())
+}
+
+model User {
+  id         String     @id @default(cuid())
+  email      String     @unique
+  password   String
+  name       String
+  department Department
+  role       Role       @default(EMPLOYEE)
+  companyId  String
+  company    Company    @relation(fields: [companyId], references: [id])
+  agents     Agent[]
+  linkedInTokens LinkedInToken[]
+  createdAt  DateTime   @default(now())
+}
+
+model Agent {
+  id              String      @id @default(cuid())
+  name            String
+  description     String
+  department      Department
+  definition      Json
+  status          AgentStatus @default(DRAFT)
+  trigger         TriggerType
+  cronSchedule    String?
+  tools           Json
+  guardrails      Json
+  memoryEnabled   Boolean     @default(true)
+  knowledgeNeeded Boolean     @default(false)
+  isPublic        Boolean     @default(false)
+  userId          String
+  user            User        @relation(fields: [userId], references: [id])
+  companyId       String
+  company         Company     @relation(fields: [companyId], references: [id])
+  runs            AgentRun[]
+  knowledgeBases  KnowledgeBase[]
+  memory          AgentMemory[]
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+
+  @@unique([companyId, name, isPublic])
+}
+
+model AgentRun {
+  id            String        @id @default(cuid())
+  agentId       String
+  agent         Agent         @relation(fields: [agentId], references: [id])
+  status        RunStatus
+  logs          Json
+  output        String?
+  triggeredBy   String
+  startedAt     DateTime      @default(now())
+  endedAt       DateTime?
+  pendingAction PendingAction?
+}
+
+model PendingAction {
+  id        String              @id @default(cuid())
+  runId     String              @unique
+  run       AgentRun            @relation(fields: [runId], references: [id])
+  action    String
+  status    PendingActionStatus @default(PENDING)
+  message   String
+  createdAt DateTime            @default(now())
+  updatedAt DateTime            @updatedAt
+}
+
+model AgentMemory {
+  id        String   @id @default(cuid())
+  agentId   String
+  agent     Agent    @relation(fields: [agentId], references: [id])
+  key       String
+  value     String
+  updatedAt DateTime @updatedAt
+
+  @@unique([agentId, key])
+}
+
+model KnowledgeBase {
+  id                String   @id @default(cuid())
+  agentId           String
+  agent             Agent    @relation(fields: [agentId], references: [id])
+  fileName          String
+  fileUrl           String
+  vectorNamespace   String
+  createdAt         DateTime @default(now())
+}
+
+model Suggestion {
+  id        String   @id @default(cuid())
+  companyId String
+  agentId   String
+  message   String
+  dismissed Boolean  @default(false)
+  createdAt DateTime @default(now())
+}
+
+enum PendingActionStatus {
+  PENDING
+  APPROVED
+  DENIED
+}
+
+enum Department {
+  SALES
+  HR
+  MARKETING
+  FINANCE
+  SUPPORT
+}
+
+enum Role {
+  EMPLOYEE
+  MANAGER
+  ADMIN
+}
+
+enum AgentStatus {
+  DRAFT
+  ACTIVE
+  PAUSED
+}
+
+enum TriggerType {
+  MANUAL
+  SCHEDULED
+  WEBHOOK
+}
+
+enum RunStatus {
+  RUNNING
+  SUCCESS
+  FAILED
+  WAITING_APPROVAL
+}
+
+model LinkedInToken {
+  id           String   @id @default(cuid())
+  userId       String   @unique
+  accessToken  String
+  refreshToken String?
+  expiresAt    DateTime
+  personId     String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  user         User     @relation(fields: [userId], references: [id])
+}
+

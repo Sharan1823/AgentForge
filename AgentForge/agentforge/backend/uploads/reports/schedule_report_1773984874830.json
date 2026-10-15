@@ -1,0 +1,34 @@
+{
+  "agentName": "New Agent",
+  "generatedAt": "2026-03-20T05:34:34.830Z",
+  "totalPosts": 3,
+  "posts": [
+    {
+      "platform": "3.WRITE A PROGRAM TO DECLARE VARIABLES OF DIFFERENT DATATYPES (INTEGER",
+      "topic": "float",
+      "originalContent": "character",
+      "optimizedCaption": "Here are three different captions for declaring variables of different datatypes:\n\n**Instagram**\n\"Get familiar with data types! Let's declare some variables and explore their powers Declaring Variables like a pro: integer = 10, float = 3.14, character = 'A', double = 10.5 #datatypes #programming #variables\"\n\n**LinkedIn**\n\"Mastering the basics of programming requires understanding the fundamentals - including data types. Let's take a closer look at declaring variables with different datatypes and how they can be used in your code.\"\n\n**Twitter**\n\"Data types 101! Declare variables like integer, float, character & double with ease #programmingbasics #datatypes #variables\"",
+      "scheduledTime": "2026-03-21T03:30:00.000Z",
+      "humanReadableTime": "21/3/2026, 9:00:00 am",
+      "status": "SCHEDULED"
+    },
+    {
+      "platform": "5.WRITE A PROGRAM THAT USES VARIABLES",
+      "topic": "datatypes",
+      "originalContent": "operators",
+      "optimizedCaption": "**Instagram Caption**\nUnlock the power of variables! I just wrote a program that uses variables to calculate the area and perimeter of a rectangle #datatypes #operators #variables #programming #mathematicaloperations\n\n**LinkedIn Caption**\nMastering Variables: A Program That Calculates Rectangle Properties Do you know how to effectively utilize variables in programming? This post showcases a simple yet powerful example of using variables to calculate the area and perimeter of a rectangle. #datastructures #programmingbasics\n\n**Twitter Caption**\nVariables just got a whole lot easier! Check out this program that uses variables to calculate rectangle properties #datatypes #operators #variables #programming\n\n**Facebook Caption**\nHey friends, let's talk about programming for a sec! I just wrote a program that uses variables to calculate the area and perimeter of a rectangle. Want to see how it works?",
+      "scheduledTime": "2026-03-21T03:30:00.000Z",
+      "humanReadableTime": "21/3/2026, 9:00:00 am",
+      "status": "SCHEDULED"
+    },
+    {
+      "platform": "6.WRITE A PROGRAM TO PERFORM ADDITION",
+      "topic": "subtraction",
+      "originalContent": "multiplication",
+      "optimizedCaption": "Here are the optimized captions for each platform:\n\n**Instagram**\n\"Crunching numbers? Add it up with ease! Learn how to write a program that performs addition like a pro #ProgrammingBasics #CodeWithUs #AdditionMadeEasy #CodingTips #MathInTheCloud\"\n\n**LinkedIn**\n\"Optimize your coding skills: Writing a Program to Perform Addition. In this tutorial, we'll explore the fundamentals of addition in programming and provide you with a simple yet effective solution to perform calculations.\"\n\n**Twitter**\n\"Newbie coders! Master addition in 5 lines of code Learn how to write a program that performs addition with ease #CodeForBeginners #AdditionInAction #ProgrammingEssentials\"\n\n**Facebook**\n\"So, you want to learn how to add numbers programmatically? Don't worry, we've got you covered! Here's a simple program that will help you get started. Share your thoughts and ask us any questions in the comments below!\"",
+      "scheduledTime": "2026-03-21T03:30:00.000Z",
+      "humanReadableTime": "21/3/2026, 9:00:00 am",
+      "status": "SCHEDULED"
+    }
+  ]
+}

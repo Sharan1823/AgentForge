@@ -1,0 +1,614 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 4802
+>>
+stream
+0.5670000000000001 w
+0 G
+0.1 0.13 0.21 rg
+0. 841.8899999999999864 595.2799999999999727 -113.3858267716535551 re
+f
+BT
+/F2 18 Tf
+20.6999999999999993 TL
+1. g
+56.6929133858267775 771.0238582677164914 Td
+(Knowledge Base Extractor — Output Report) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+1. g
+56.6929133858267775 742.6774015748030706 Td
+(Agent: Knowledge Base Extractor  |  Department: HR  |  Step: Extract all email addresses from the document  |  Generated: 20/3/2026, 2:30:22 pm) Tj
+ET
+0.17 0.2 0.31 rg
+56.6929133858267775 685.9844881889763428 481.8941732283464034 -25.5118110236220517 re
+f
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+1. g
+65.1968503937007995 667.559291338582625 Td
+(Classification Results) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 646.2994488188976447 Td
+(To extract email addresses using the LLM, we'll utilize the Sheets tool to ensure that all email addresses are) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 629.291574803149615 Td
+(captured accurately.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 595.2758267716535556 Td
+(### Step-by-Step Explanation:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 578.2679527559055259 Td
+(1. **Extract Email Addresses**: Use the Sheets tool to pull all email addresses from your document. This is a) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 561.2600787401574962 Td
+(straightforward process once Gmail API is configured.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 544.2522047244094665 Td
+(2. **Transfer Results**: Once extracted, transfer these emails into the designated result area for further) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 527.2443307086614368 Td
+(processing or analysis.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 493.2285826771653205 Td
+(### Output:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 476.2207086614172908 Td
+(```json) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 459.2128346456692611 Td
+({) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 442.2049606299212314 Td
+(  "success": true,) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 425.1970866141731449 Td
+(  "totalRecipients": 5,) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 408.1892125984251152 Td
+(  "totalSent": 5,) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 391.1813385826770855 Td
+(  "totalFailed": 0,) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 374.1734645669290558 Td
+(  "results": [) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 357.1655905511810261 Td
+(    {) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 340.1577165354329964 Td
+(      "to": "Kavinkumarar0@gmail.com",) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 323.1498425196849666 Td
+(      "success": true,) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 306.1419685039369369 Td
+(      "messageId": "<1a900af0-9ebd-13ec-14ef-9d009ff55048@gmail.com>") Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 289.1340944881889072 Td
+(    },) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 272.1262204724408775 Td
+(    {) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 255.1183464566928478 Td
+(      "to": "Kavinkumar777ar@gmail.com",) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 238.1104724409448181 Td
+(      "success": true,) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 221.1025984251967884 Td
+(      "messageId": "<870db212-481e-e467-5f45-b727f49cf819@gmail.com>") Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 204.0947244094487587 Td
+(    },) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 187.086850393700729 Td
+(    {) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 170.0789763779526993 Td
+(      "to": "sharan.b3333@gmail.com",) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 153.0711023622046696 Td
+(      "success": true,) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 136.0632283464566399 Td
+(      "messageId": "<ae97c148-113c-a401-7489-faea76a213dc@gmail.com>") Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 119.0553543307086102 Td
+(    },) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 102.0474803149605805 Td
+(    {) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 85.0396062992125508 Td
+(      "to": "rammeeey@gmail.com",) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 68.0317322834645211 Td
+(      "success": true,) Tj
+ET
+0.94 0.94 0.96 rg
+0. 34.0157480314960665 595.2799999999999727 -34.0157480314960665 re
+f
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.471 0.471 0.549 rg
+56.6929133858267775 11.338582677165391 Td
+(AgentForge — Generated 20/3/2026, 2:30:22 pm) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.471 0.471 0.549 rg
+497.9470866141731449 11.338582677165391 Td
+(Page 1 of 2) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 1421
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 785.1970866141732586 Td
+(      "messageId": "<830b3800-9bc7-fc9a-51e0-e5a3872740b1@gmail.com>") Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 768.1892125984252289 Td
+(    },) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 751.1813385826771992 Td
+(    {) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 734.1734645669291695 Td
+(      "to": "agilanagilan444@gmail.com",) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 717.1655905511811397 Td
+(      "success": true,) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 700.15771653543311 Td
+(      "messageId": "<4790a775-e68d-7e3d-ca91-89b06912568d@gmail.com>") Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 683.1498425196850803 Td
+(    }) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 666.1419685039369369 Td
+(  ]) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 649.1340944881889072 Td
+(}) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.118 g
+56.6929133858267775 632.1262204724408775 Td
+(```) Tj
+ET
+0.94 0.94 0.96 rg
+0. 34.0157480314960665 595.2799999999999727 -34.0157480314960665 re
+f
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.471 0.471 0.549 rg
+56.6929133858267775 11.338582677165391 Td
+(AgentForge — Generated 20/3/2026, 2:30:22 pm) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.471 0.471 0.549 rg
+497.9470866141731449 11.338582677165391 Td
+(Page 2 of 2) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R ]
+/Count 2
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+19 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+/F7 13 0 R
+/F8 14 0 R
+/F9 15 0 R
+/F10 16 0 R
+/F11 17 0 R
+/F12 18 0 R
+/F13 19 0 R
+/F14 20 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+21 0 obj
+<<
+/Producer (jsPDF 2.5.2)
+/CreationDate (D:20260320143022+05'30')
+>>
+endobj
+22 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 23
+0000000000 65535 f 
+0000006616 00000 n 
+0000008441 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000005006 00000 n 
+0000005143 00000 n 
+0000006679 00000 n 
+0000006804 00000 n 
+0000006934 00000 n 
+0000007067 00000 n 
+0000007205 00000 n 
+0000007329 00000 n 
+0000007458 00000 n 
+0000007590 00000 n 
+0000007726 00000 n 
+0000007854 00000 n 
+0000007981 00000 n 
+0000008110 00000 n 
+0000008243 00000 n 
+0000008345 00000 n 
+0000008691 00000 n 
+0000008777 00000 n 
+trailer
+<<
+/Size 23
+/Root 22 0 R
+/Info 21 0 R
+/ID [ <A12AD10F72D9D6355BC61CEA70099839> <A12AD10F72D9D6355BC61CEA70099839> ]
+>>
+startxref
+8881
+%%EOF

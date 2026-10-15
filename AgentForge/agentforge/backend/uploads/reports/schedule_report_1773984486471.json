@@ -1,0 +1,34 @@
+{
+  "agentName": "New Agent",
+  "generatedAt": "2026-03-20T05:28:06.472Z",
+  "totalPosts": 3,
+  "posts": [
+    {
+      "platform": "3.WRITE A PROGRAM TO DECLARE VARIABLES OF DIFFERENT DATATYPES (INTEGER",
+      "topic": "float",
+      "originalContent": "character",
+      "optimizedCaption": "Here are three optimized social media captions:\n\n**Instagram:** \"Code like a pro! Declare variables of different datatypes (integer, float, character, and double) with ease and display their values. #CodingEssentials #DataTypes #ProgrammingBasics #LearnToCode #TechTips\"\n\n**LinkedIn:** \"Mastering the basics of programming requires a solid understanding of data types. Learn how to declare integer, float, character, and double variables in this essential coding exercise.\"\n\n**Twitter:** \"Declaring variables 101! Master integer, float, char & double datatypes with our easy-to-follow code example. #CodeLikePro #DataTypes #ProgrammingBasics\"",
+      "scheduledTime": "2026-03-21T03:30:00.000Z",
+      "humanReadableTime": "21/3/2026, 9:00:00 am",
+      "status": "SCHEDULED"
+    },
+    {
+      "platform": "5.WRITE A PROGRAM THAT USES VARIABLES",
+      "topic": "datatypes",
+      "originalContent": "operators",
+      "optimizedCaption": "Here are the optimized captions for each platform:\n\n**Instagram**\n\"Variable Vibes! Learn how to store and manipulate data like a pro with our beginner-friendly program that uses variables, datatypes, and operators #datascience #programming #variablevibes #learnprogramming #codingforbeginners\"\n\n**LinkedIn**\n\"Mastering Variables: A Programming Fundamentals Course\n\nIn this program, we'll explore the basics of programming by storing values in variables, declaring different datatypes, and performing calculations using operators. Whether you're a beginner or an experienced developer, this course will help you solidify your understanding of programming fundamentals.\"\n\n**Twitter**\n\"Variables 101! Store data, calculate operations & more with our easy-to-follow program [link] #programming #variables #datascience\"\n\n**Facebook**\n\"Hey friends! Want to learn the basics of programming? Our latest program is all about using variables, datatypes, and operators to store and manipulate data. Join us on this coding adventure and take your skills to the next level!\"",
+      "scheduledTime": "2026-03-21T03:30:00.000Z",
+      "humanReadableTime": "21/3/2026, 9:00:00 am",
+      "status": "SCHEDULED"
+    },
+    {
+      "platform": "6.WRITE A PROGRAM TO PERFORM ADDITION",
+      "topic": "subtraction",
+      "originalContent": "multiplication",
+      "optimizedCaption": "Here are the optimized captions for each platform:\n\n**Instagram**\n\"Addition magic! Let's break down a simple program to perform addition with two numbers. Who else needs help mastering coding basics? #codingforbeginners #mathincode #programming101\"\n\n**LinkedIn**\n\"Maximizing Efficiency: A Program for Addition Operations. In this optimized code snippet, we'll explore how to implement addition using variables and operators. Learn how to streamline your programming workflow with this concise example.\"\n\n**Twitter**\n\"Coding 101: Adding Numbers Made Easy! Check out this simple program that makes addition a breeze. #codingsimplified #mathmastery\"\n\n**Facebook**\n\"Hey friends! Want to learn the basics of coding? Let's start with something fun - adding numbers! I've got a simple program to share with you, and I'd love for you to follow along and ask me any questions you have.\"",
+      "scheduledTime": "2026-03-21T03:30:00.000Z",
+      "humanReadableTime": "21/3/2026, 9:00:00 am",
+      "status": "SCHEDULED"
+    }
+  ]
+}
